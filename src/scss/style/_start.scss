@@ -1,0 +1,47 @@
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    .logo {
+      width: 15em;
+      height: 15rem;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+      position: relative;
+      bottom: -5em;
+    }
+  }
+  .btn {
+    background-color: rgba(47, 39, 98, 1);
+    border: none;
+    width: 15em;
+    height: 6em;
+    border-radius: 24px;
+    color: white;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+    .text {
+      font-size: 2em;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .icon_container {
+    font-size: 4em;
+    display: flex;
+    box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 24px 24px 0 0;
+    width: 5em;
+    justify-content: space-around;
+    background-color: #2F2762;
+    *{
+      color:white;
+      margin: 0.3em 0 ;
+    }
+  }
+
+
+

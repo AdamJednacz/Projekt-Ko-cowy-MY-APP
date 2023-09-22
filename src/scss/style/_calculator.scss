@@ -1,0 +1,25 @@
+.form{
+  .select{
+    margin-bottom: 2em;
+    padding: 1.925em 6.387em;
+    border-radius: 24px;
+    background-color: #2F2762;
+    border: none;
+    color: white;
+    &:hover{
+      border: white solid 4px;
+    }
+  }
+  .arrow{
+    color: white;
+    font-size: 6em;
+    margin: 0.5em;
+  }
+  .div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.895em;
+    height: 0.27em;
+     }
+}

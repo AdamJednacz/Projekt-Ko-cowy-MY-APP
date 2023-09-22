@@ -1,0 +1,311 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+.container .logo {
+  width: 15em;
+  height: 15rem;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+  position: relative;
+  bottom: -5em;
+}
+
+.btn {
+  background-color: rgb(47, 39, 98);
+  border: none;
+  width: 15em;
+  height: 6em;
+  border-radius: 24px;
+  color: white;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+}
+.btn .text {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+
+.icon_container {
+  font-size: 4em;
+  display: flex;
+  box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 24px 24px 0 0;
+  width: 5em;
+  justify-content: space-around;
+  background-color: #2F2762;
+}
+.icon_container * {
+  color: white;
+  margin: 0.3em 0;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+}
+.background .LOR_container {
+  display: flex;
+  justify-content: normal;
+  height: auto;
+}
+.background .LOR_container .btn {
+  margin-bottom: 2em;
+}
+
+.Login_container {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.Login_container .btn {
+  height: 4em;
+}
+
+.Register_container {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.header_logOut {
+  background-color: rgb(138, 18, 22);
+  border: none;
+  width: 7.5em;
+  height: 3em;
+  border-radius: 24px;
+  color: white;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.header_item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  color: white;
+  font-size: 1.3em;
+}
+
+.income_expenses_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+  height: auto;
+}
+.income_expenses_form #select {
+  padding: 2em 4.062em;
+}
+.income_expenses_form .form_item {
+  margin-bottom: 2em;
+  padding: 2em;
+  border-radius: 24px;
+  background-color: #2F2762;
+  border: none;
+  color: white;
+}
+.income_expenses_form .form_item:hover {
+  border: white solid 4px;
+}
+.income_expenses_form .form_item:nth-of-type(3) {
+  width: 12.676em;
+  height: 1.125em;
+}
+.income_expenses_form .form_item:nth-of-type(4) {
+  padding: 6em 2em;
+  flex-wrap: wrap;
+}
+
+.header_container .finance_btn_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header_container .finance_btn_container .btn {
+  width: 5em;
+  height: 3.5em;
+  margin: 1em;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  overflow: scroll;
+  justify-content: normal;
+  align-items: center;
+}
+.balance .stat {
+  background-color: rgb(47, 39, 98);
+  border: none;
+  width: 8em;
+  height: 3em;
+  border-radius: 24px;
+  color: white;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.btn_container_history {
+  display: flex;
+  flex-direction: row;
+}
+.btn_container_history .btn {
+  margin: 1em 0.5em;
+  width: 8em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.list {
+  margin: 2em;
+  border: solid white 2px;
+  width: 100%;
+  height: 80%;
+  overflow: auto;
+}
+.list .list_item {
+  border: solid pink 2px;
+  height: 9em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.list .list_item .list_item_container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list .list_item .list_item_container .data_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.list .list_item .list_item_container .data_container .list_item_item {
+  margin: 0.5em;
+}
+.list .income {
+  background-color: #168a0c;
+}
+.list .expenses {
+  background-color: #8a0c21;
+}
+
+.form .select {
+  margin-bottom: 2em;
+  padding: 1.925em 6.387em;
+  border-radius: 24px;
+  background-color: #2F2762;
+  border: none;
+  color: white;
+}
+.form .select:hover {
+  border: white solid 4px;
+}
+.form .arrow {
+  color: white;
+  font-size: 6em;
+  margin: 0.5em;
+}
+.form .div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.895em;
+  height: 0.27em;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1700px;
+  }
+}
+
+.background {
+  height: 100vh;
+  background-image: url("../img/49e1b253f5b44836624738e03815c570.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background .header_container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: normal;
+}
+.background .header_container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2.2em;
+  background-color: #2F2762;
+  color: white;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+}
+.background .header_container .btn_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  height: 80vh;
+}
+.background .header_container .btn_container .btn {
+  margin-bottom: 2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+.form .form_item {
+  margin-bottom: 2em;
+  padding: 2em;
+  border-radius: 24px;
+  background-color: #2F2762;
+  border: none;
+  color: white;
+}
+.form .form_item:hover {
+  border: white solid 4px;
+}
+.form .btn {
+  height: 4em;
+}
+
+/*# sourceMappingURL=App.css.map */

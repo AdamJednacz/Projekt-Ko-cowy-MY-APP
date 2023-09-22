@@ -1,0 +1,86 @@
+@import "_start";
+@import "loginorregister";
+@import "login";
+@import "register";
+@import "_menu.scss";
+@import "financemenu";
+@import "_income.scss";
+@import "expenses";
+@import "finace";
+@import "accountbalance";
+@import "history";
+@import "calculator";
+.container{
+  max-width: 320px;
+  margin: 0 auto;
+  width: 100%;
+
+  @include tablet{
+    max-width:700px ;
+  }
+  @include desktop{
+    max-width: 1700px;
+  }
+}
+
+.background {
+  height: 100vh;
+  background-image: url('../img/49e1b253f5b44836624738e03815c570.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .header_container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: normal;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 2.2em;
+      background-color: #2F2762;
+      color: white;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.75);
+
+      .header_item {
+
+      }
+    }
+
+    .btn_container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-self: center;
+      height: 80vh;
+
+      .btn {
+        margin-bottom: 2em;
+      }
+    }
+  }
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+  .form_item{
+    margin-bottom: 2em;
+    padding: 2em;
+    border-radius: 24px;
+    background-color: #2F2762;
+    border: none;
+    color: white;
+    &:hover{
+      border: white solid 4px;
+    }
+  }
+  .btn {
+    height: 4em;
+  }
+}
