@@ -13,7 +13,7 @@ const Calculator = () => {
     useEffect(() => {
         const fetchExchangeRates = async () => {
             try {
-              const response = await fetch(`http://api.nbp.pl/api/exchangerates/tables/A/`);
+              const response = await fetch(`https://api.nbp.pl/api/exchangerates/tables/A/`);
                 if (!response.ok) {
                      new Error('Błąd pobierania kursów walutowych');
                 }
